@@ -1,4 +1,4 @@
-File,Line,Column,DefaultLevel,Level,Level,Category,Name,Warning,Suggestion,Note,CWEs,Context,Fingerprint,ToolVersion,RuleId,HelpUri
+File,Line,Column,DefaultLevel,Level,Level1,Category,Name,Warning,Suggestion,Note,CWEs,Context,Fingerprint,ToolVersion,RuleId,HelpUri
 ,,,,,,,,,,,,,,,,
 C:\Users\PC1\Desktop\New folder\5.c,12,5,5,5,High,buffer,gets,"Does not check for buffer overflows (CWE-120, CWE-20).",Use fgets() instead.,,"CWE-120, CWE-20","    gets(input);  // Dangerous function, allows buffer overflow",b42c349ebeac32de6bb4663e78726069c0e46a68669e67ebcef5b4ffff2c6766,2.0.19,FF1014,https://cwe.mitre.org/data/definitions/120.html
 ,,,,, ,,,,,,,,,,,
